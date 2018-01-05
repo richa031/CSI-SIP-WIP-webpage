@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Lombok;
+    src: url("static/fonts/Lombok.otf") format("opentype");
+}
+#about{
+    background-color: transparent;
+}
+
+/* Modal styling */
+
+
+
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background: rgb(0,5,34);
+    font-family: 'montserrat-regular', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #5498CC;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+
+a:hover {
+    color: #6698BB;
+}
+
+
+
+
+
+
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+    margin: 0 0 40px;
+}
+
+
+
+
+
+.button {
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 15px 0;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background: #5498CC;
+    color: #ffffff;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+}
+
+.button:hover,
+.button:focus {
+    background: #5498CC;
+}
+
+
+
+video#vid {
+ position: fixed; 
+ right: 0; 
+ bottom: 0;
+ min-width: 100%; 
+ min-height: 100%;
+ width: auto !important; 
+ height: auto !important; 
+ z-index: -100;
+ background-size: cover;
+ margin: 0 auto;
+}
+
+
